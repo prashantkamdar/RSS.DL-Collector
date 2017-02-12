@@ -20,6 +20,7 @@
     "feedparser": "2.1.0",
     "mongodb": "2.2.22",
     "nconf": "0.8.4",
+    "replaceall": "0.1.6",
     "request": "2.79.0"
   }
 }
