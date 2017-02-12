@@ -4,7 +4,7 @@
   "description": "Download from scene sites",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/jshint/bin/jshint index.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
     "nconf": "0.8.4",
     "replaceall": "0.1.6",
     "request": "2.79.0"
+  },
+  "devDependencies": {
+    "jshint": "2.9.4"
   }
 }
