@@ -1,0 +1,24 @@
+{
+  "name": "scenedl",
+  "version": "0.0.1",
+  "description": "Download from scene sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prashantkamdar/SceneDL.git"
+  },
+  "author": "Prashant Kamdar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prashantkamdar/SceneDL/issues"
+  },
+  "homepage": "https://github.com/prashantkamdar/SceneDL#readme",
+  "dependencies": {
+    "feedparser": "2.1.0",
+    "nconf": "0.8.4",
+    "request": "2.79.0"
+  }
+}

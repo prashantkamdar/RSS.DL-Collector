@@ -1,0 +1,15 @@
+{
+	
+	"SceneSites":[
+	{
+		"Name":"SceneSrc",
+		"URL":"http://www.scnsrc.me/",
+		"RSS":"http://feeds.feedburner.com/scnsrc/rss"
+	},
+	{
+		"Name":"ReleaseLog",
+		"URL":"http://www.rlslog.net/",
+		"RSS":"http://feeds.feedburner.com/releaselog"
+	}
+	]
+}
