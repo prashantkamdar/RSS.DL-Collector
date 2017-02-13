@@ -3,7 +3,7 @@ nconf.file({
     file: __dirname + '/config.json'
 });
 var replaceall = require('replaceall');
-var SceneSites = nconf.get('SceneSites');
+var SceneSites = nconf.get('Sites');
 var parsesite = require('./parsesite');
 var db = require('./db');
 
