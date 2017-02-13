@@ -12,9 +12,10 @@ db.checkConnected(function() {
         parsesite.downloadFeed(scenesite, function(data) {
             try {
                 db.insertIfNotExists({
-                    "name": scenesite.Name,
-                    "title": replaceall(" ", ".", data.title)
-                });
+                    "site": scenesite.Name,
+                    "title": replaceall(" ", ".", data.title),
+                    "date": data.date
+                });                
             } catch (err) {
                 console.log(err);
             }
